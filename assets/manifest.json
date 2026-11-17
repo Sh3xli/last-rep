@@ -1,0 +1,1481 @@
+{
+  "version": 1,
+  "textures": {
+    "rubberFloor": {
+      "url": "/assets/textures/rubber-floor.jpg",
+      "urlLow": "/assets/textures/rubber-floor-1k.jpg",
+      "kind": "floor",
+      "map": "albedo",
+      "tileMeters": 2.0,
+      "colorSpace": "srgb"
+    },
+    "platformHardwood": {
+      "url": "/assets/textures/platform-hardwood.jpg",
+      "urlLow": "/assets/textures/platform-hardwood-1k.jpg",
+      "kind": "floor",
+      "map": "albedo",
+      "tileMeters": 2.4,
+      "colorSpace": "srgb"
+    },
+    "polishedConcrete": {
+      "url": "/assets/textures/polished-concrete.jpg",
+      "urlLow": "/assets/textures/polished-concrete-1k.jpg",
+      "kind": "floor",
+      "map": "albedo",
+      "tileMeters": 4.0,
+      "colorSpace": "srgb"
+    },
+    "cinderBlockPainted": {
+      "url": "/assets/textures/cinder-block-painted.jpg",
+      "urlLow": "/assets/textures/cinder-block-painted-1k.jpg",
+      "kind": "wall",
+      "map": "albedo",
+      "tileMeters": 1.6,
+      "colorSpace": "srgb"
+    },
+    "redBrick": {
+      "url": "/assets/textures/red-brick.jpg",
+      "urlLow": "/assets/textures/red-brick-1k.jpg",
+      "kind": "wall",
+      "map": "albedo",
+      "tileMeters": 1.0,
+      "colorSpace": "srgb"
+    },
+    "diamondPlate": {
+      "url": "/assets/textures/diamond-plate.jpg",
+      "urlLow": "/assets/textures/diamond-plate-1k.jpg",
+      "kind": "metal",
+      "map": "albedo",
+      "tileMeters": 1.0,
+      "colorSpace": "srgb"
+    },
+    "knurledSteel": {
+      "url": "/assets/textures/knurled-steel.jpg",
+      "urlLow": "/assets/textures/knurled-steel-1k.jpg",
+      "kind": "metal",
+      "map": "albedo",
+      "tileMeters": 0.25,
+      "colorSpace": "srgb"
+    },
+    "turfGreen": {
+      "url": "/assets/textures/turf-green.jpg",
+      "urlLow": "/assets/textures/turf-green-1k.jpg",
+      "kind": "floor",
+      "map": "albedo",
+      "tileMeters": 2.0,
+      "colorSpace": "srgb"
+    },
+    "vinylPadBlack": {
+      "url": "/assets/textures/vinyl-pad-black.jpg",
+      "urlLow": "/assets/textures/vinyl-pad-black-1k.jpg",
+      "kind": "fabric",
+      "map": "albedo",
+      "tileMeters": 0.6,
+      "colorSpace": "srgb"
+    },
+    "rooftopGravel": {
+      "url": "/assets/textures/rooftop-gravel.jpg",
+      "urlLow": "/assets/textures/rooftop-gravel-1k.jpg",
+      "kind": "floor",
+      "map": "albedo",
+      "tileMeters": 3.0,
+      "colorSpace": "srgb"
+    },
+    "plywoodBox": {
+      "url": "/assets/textures/plywood-box.jpg",
+      "urlLow": "/assets/textures/plywood-box-1k.jpg",
+      "kind": "wood",
+      "map": "albedo",
+      "tileMeters": 0.75,
+      "colorSpace": "srgb"
+    },
+    "corrugatedMetal": {
+      "url": "/assets/textures/corrugated-metal.jpg",
+      "urlLow": "/assets/textures/corrugated-metal-1k.jpg",
+      "kind": "wall",
+      "map": "albedo",
+      "tileMeters": 1.5,
+      "colorSpace": "srgb"
+    },
+    "hazardStripes": {
+      "url": "/assets/textures/hazard-stripes.jpg",
+      "kind": "floor",
+      "map": "albedo",
+      "tileMeters": 1.0,
+      "colorSpace": "srgb"
+    }
+  },
+  "ui": {
+    "keyArtMain": {
+      "url": "/assets/ui/key-art-main.webp"
+    },
+    "keyArtMainV2": {
+      "url": "/assets/ui/key-art-main-v2.webp"
+    },
+    "weaponDeadlift": {
+      "url": "/assets/ui/weapons/deadlift.webp"
+    },
+    "weaponMuscleUp": {
+      "url": "/assets/ui/weapons/muscleUp.webp"
+    },
+    "weaponLongBar": {
+      "url": "/assets/ui/weapons/longBar.webp"
+    },
+    "weaponAdjustable": {
+      "url": "/assets/ui/weapons/adjustable.webp"
+    },
+    "weaponPlateLauncher": {
+      "url": "/assets/ui/weapons/plateLauncher.webp"
+    },
+    "weaponMedBall": {
+      "url": "/assets/ui/weapons/medBall.webp"
+    },
+    "weaponPercussion": {
+      "url": "/assets/ui/weapons/percussion.webp"
+    },
+    "weaponStopwatch": {
+      "url": "/assets/ui/weapons/stopwatch.webp"
+    },
+    "weaponGripper": {
+      "url": "/assets/ui/weapons/gripper.webp"
+    },
+    "weaponSpeedRope": {
+      "url": "/assets/ui/weapons/speedRope.webp"
+    },
+    "logo": {
+      "url": "/assets/ui/logo-last-rep.webp"
+    },
+    "logoOnBlack": {
+      "url": "/assets/ui/logo-last-rep-on-black.webp"
+    },
+    "portraitPowerlifter": {
+      "url": "/assets/ui/portrait-powerlifter.webp"
+    },
+    "portraitCalisthenics": {
+      "url": "/assets/ui/portrait-calisthenics.webp"
+    },
+    "portraitSprinter": {
+      "url": "/assets/ui/portrait-sprinter.webp"
+    },
+    "portraitSpotter": {
+      "url": "/assets/ui/portrait-spotter.webp"
+    },
+    "portraitHybrid": {
+      "url": "/assets/ui/portrait-hybrid.webp"
+    },
+    "loadingIronTemple": {
+      "url": "/assets/ui/loading-iron-temple.webp"
+    },
+    "loadingNeonPulse": {
+      "url": "/assets/ui/loading-neon-pulse.webp"
+    },
+    "loadingSkyline": {
+      "url": "/assets/ui/loading-skyline.webp"
+    }
+  },
+  "audio": {
+    "music": {
+      "menu": {
+        "url": "/assets/audio/music/menu.mp3",
+        "loop": true,
+        "bpm": 140,
+        "key": "D minor"
+      },
+      "combatLow": {
+        "url": "/assets/audio/music/combat-low.mp3",
+        "loop": true,
+        "bpm": 140,
+        "key": "D minor"
+      },
+      "combatHigh": {
+        "url": "/assets/audio/music/combat-high.mp3",
+        "loop": true,
+        "bpm": 140,
+        "key": "D minor"
+      }
+    },
+    "vo": {
+      "superset": {
+        "url": "/assets/audio/vo/superset.mp3"
+      },
+      "triSet": {
+        "url": "/assets/audio/vo/tri-set.mp3"
+      },
+      "giantSet": {
+        "url": "/assets/audio/vo/giant-set.mp3"
+      },
+      "newPr": {
+        "url": "/assets/audio/vo/new-pr.mp3"
+      },
+      "noRep": {
+        "url": "/assets/audio/vo/no-rep.mp3"
+      },
+      "goodForm": {
+        "url": "/assets/audio/vo/good-form.mp3"
+      },
+      "spotted": {
+        "url": "/assets/audio/vo/spotted.mp3"
+      },
+      "warmUpsOver": {
+        "url": "/assets/audio/vo/warm-ups-over.mp3"
+      },
+      "oneMoreRep": {
+        "url": "/assets/audio/vo/one-more-rep.mp3"
+      },
+      "peakPump": {
+        "url": "/assets/audio/vo/peak-pump.mp3"
+      },
+      "victory": {
+        "url": "/assets/audio/vo/victory.mp3"
+      },
+      "defeat": {
+        "url": "/assets/audio/vo/defeat.mp3"
+      },
+      "gymWars": {
+        "url": "/assets/audio/vo/gym-wars.mp3"
+      },
+      "kingOfTheRack": {
+        "url": "/assets/audio/vo/king-of-the-rack.mp3"
+      },
+      "openGym": {
+        "url": "/assets/audio/vo/open-gym.mp3"
+      },
+      "rackCaptured": {
+        "url": "/assets/audio/vo/rack-captured.mp3"
+      },
+      "rackLost": {
+        "url": "/assets/audio/vo/rack-lost.mp3"
+      },
+      "thirtySeconds": {
+        "url": "/assets/audio/vo/thirty-seconds.mp3"
+      },
+      "finalRep": {
+        "url": "/assets/audio/vo/final-rep.mp3"
+      },
+      "matchPoint": {
+        "url": "/assets/audio/vo/match-point.mp3"
+      },
+      "lastRep": {
+        "url": "/assets/audio/vo/last-rep.mp3"
+      }
+    },
+    "sfx": {
+      "pickup": {
+        "url": "/assets/audio/sfx/pickup.mp3"
+      },
+      "shotLmg": {
+        "url": "/assets/audio/sfx/shot-lmg.mp3"
+      },
+      "shotRifle": {
+        "url": "/assets/audio/sfx/shot-rifle.mp3"
+      },
+      "shotSmg": {
+        "url": "/assets/audio/sfx/shot-smg.mp3"
+      },
+      "shotSniper": {
+        "url": "/assets/audio/sfx/shot-sniper.mp3"
+      },
+      "shotPistol": {
+        "url": "/assets/audio/sfx/shot-pistol.mp3"
+      },
+      "shotSlug": {
+        "url": "/assets/audio/sfx/shot-slug.mp3"
+      },
+      "lmgSpinup": {
+        "url": "/assets/audio/sfx/lmg-spinup.mp3"
+      },
+      "plateLauncher": {
+        "url": "/assets/audio/sfx/plate-launcher.mp3"
+      },
+      "reload": {
+        "url": "/assets/audio/sfx/reload.mp3"
+      },
+      "plateClang": {
+        "url": "/assets/audio/sfx/plate-clang.mp3"
+      },
+      "hitmarker": {
+        "url": "/assets/audio/sfx/hitmarker.mp3"
+      },
+      "explosion": {
+        "url": "/assets/audio/sfx/explosion.mp3"
+      },
+      "glassShatter": {
+        "url": "/assets/audio/sfx/glass-shatter.mp3"
+      },
+      "footstepsRubber": {
+        "url": "/assets/audio/sfx/footsteps-rubber.mp3"
+      }
+    }
+  },
+  "models": {
+    "weaponDeadlift": {
+      "url": "/assets/models/weapon-deadlift.glb",
+      "kind": "weapon",
+      "weaponId": "deadlift",
+      "triangles": 22486,
+      "fileBytes": 899008,
+      "lengthMeters": 1.1,
+      "bbox": {
+        "min": [
+          -0.112,
+          -0.17,
+          -0.848
+        ],
+        "max": [
+          0.112,
+          0.228,
+          0.252
+        ]
+      },
+      "verdict": "ship",
+      "verdictNote": "Round 6 redesign: flat-topped perforated receiver, knurled barbell-sleeve barrel with collar clamp, iron plate drum hanging below the receiver, slim bench-pad stock. From the shooter's eye the top is one low narrow line; only a small front post at the muzzle collar (~2 cm) and the stock pad (~1.5 cm, behind the eye) rise above it.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/deadlift.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            -0.003,
+            0.147,
+            -0.848
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": [
+            0.0,
+            0.087,
+            -0.587
+          ],
+          "ejectionPort": [
+            0.0,
+            0.144,
+            -0.318
+          ],
+          "magazine": [
+            0.0,
+            -0.048,
+            -0.298
+          ],
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.198,
+              0.029
+            ],
+            "front": [
+              0.0,
+              0.198,
+              -0.789
+            ]
+          }
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      },
+      "revision": 3,
+      "previous": "weapon-deadlift-v2.glb"
+    },
+    "weaponMuscleUp": {
+      "url": "/assets/models/weapon-muscle-up.glb",
+      "kind": "weapon",
+      "weaponId": "muscleUp",
+      "triangles": 21437,
+      "fileBytes": 832228,
+      "lengthMeters": 0.85,
+      "bbox": {
+        "min": [
+          -0.129,
+          -0.105,
+          -0.708
+        ],
+        "max": [
+          0.129,
+          0.403,
+          0.142
+        ]
+      },
+      "verdict": "usable",
+      "verdictNote": "Ring sight reads perfectly in first person and the tube frame and chalked handles look right, but the rear grip is a closed parallette loop rather than a clean pistol grip, and the magazine is a flat box (no curved mag). Some lumpy geometry at the clamps.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/muscleUp.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            -0.001,
+            0.138,
+            -0.708
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": [
+            0.0,
+            0.26,
+            -0.476
+          ],
+          "ejectionPort": [
+            0.0,
+            0.126,
+            -0.372
+          ],
+          "magazine": [
+            0.0,
+            0.015,
+            -0.297
+          ],
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.305,
+              0.022
+            ],
+            "front": [
+              0.0,
+              0.305,
+              -0.662
+            ]
+          }
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      }
+    },
+    "weaponLongBar": {
+      "url": "/assets/models/weapon-long-bar.glb",
+      "kind": "weapon",
+      "weaponId": "longBar",
+      "triangles": 20680,
+      "fileBytes": 768392,
+      "lengthMeters": 1.3,
+      "bbox": {
+        "min": [
+          -0.19,
+          -0.146,
+          -0.957
+        ],
+        "max": [
+          0.19,
+          0.428,
+          0.343
+        ]
+      },
+      "verdict": "ship",
+      "verdictNote": "Foam-roller suppressor, shaker-bottle scope and skeleton thumbhole stock all read clearly; textures are clean. Shorter than a \"7 ft bar\" in proportion (1.3 m overall); gloss black parts look a little plasticky.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/longBar.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            0.007,
+            0.124,
+            -0.957
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": [
+            0.0,
+            0.107,
+            -0.626
+          ],
+          "ejectionPort": [
+            0.0,
+            0.13,
+            -0.045
+          ],
+          "magazine": [
+            0.0,
+            0.05,
+            -0.216
+          ],
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.334,
+              -0.011
+            ],
+            "front": [
+              0.0,
+              0.334,
+              -0.262
+            ]
+          },
+          "opticCenter": [
+            0.0,
+            0.334,
+            -0.136
+          ]
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      }
+    },
+    "weaponAdjustable": {
+      "url": "/assets/models/weapon-adjustable.glb",
+      "kind": "weapon",
+      "weaponId": "adjustable",
+      "triangles": 20032,
+      "fileBytes": 763624,
+      "lengthMeters": 0.7,
+      "bbox": {
+        "min": [
+          -0.092,
+          -0.173,
+          -0.466
+        ],
+        "max": [
+          0.092,
+          0.259,
+          0.234
+        ]
+      },
+      "verdict": "ship",
+      "verdictNote": "Charcoal plate-stack receiver with orange accents, dumbbell foregrip, box magazine and folding stock; reads as a believable carbine. The selector dial is a plain cap at the rear of the stack (no numbers, by design).",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/adjustable.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            -0.005,
+            0.121,
+            -0.466
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": [
+            0.0,
+            0.043,
+            -0.263
+          ],
+          "ejectionPort": [
+            0.0,
+            0.08,
+            -0.19
+          ],
+          "magazine": [
+            0.0,
+            -0.08,
+            -0.153
+          ],
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.227,
+              -0.031
+            ],
+            "front": [
+              0.0,
+              0.227,
+              -0.312
+            ]
+          }
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      }
+    },
+    "weaponPlateLauncher": {
+      "url": "/assets/models/weapon-plate-launcher.glb",
+      "kind": "weapon",
+      "weaponId": "plateLauncher",
+      "triangles": 20086,
+      "fileBytes": 744980,
+      "lengthMeters": 0.7,
+      "bbox": {
+        "min": [
+          -0.156,
+          -0.155,
+          -0.577
+        ],
+        "max": [
+          0.156,
+          0.397,
+          0.123
+        ]
+      },
+      "verdict": "ship",
+      "verdictNote": "Coloured bumper plates on a peg read instantly; chunky frame, swing arm, pistol grip and vertical foregrip. Front slot is the launch opening.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/plateLauncher.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            0.004,
+            0.187,
+            -0.577
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": [
+            0.0,
+            0.045,
+            -0.366
+          ],
+          "ejectionPort": [
+            0.0,
+            0.159,
+            -0.545
+          ],
+          "magazine": [
+            0.0,
+            0.303,
+            -0.447
+          ],
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.265,
+              -0.023
+            ],
+            "front": [
+              0.0,
+              0.265,
+              -0.515
+            ]
+          }
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      }
+    },
+    "weaponMedBall": {
+      "url": "/assets/models/weapon-med-ball.glb",
+      "kind": "weapon",
+      "weaponId": "medBall",
+      "triangles": 21542,
+      "fileBytes": 731748,
+      "lengthMeters": 0.6,
+      "bbox": {
+        "min": [
+          -0.088,
+          -0.121,
+          -0.541
+        ],
+        "max": [
+          0.088,
+          0.153,
+          0.059
+        ]
+      },
+      "verdict": "ship",
+      "verdictNote": "Round 6 redesign: breech closed, leather medicine ball visible in an open-sided cradle from both sides, fat rubber-lined front tube, flat top. The front tube rim sits ~1 cm above the frame line and the leather rear pad is level with it; nothing hinged or raised.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/medBall.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            -0.026,
+            0.068,
+            -0.541
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": [
+            0.0,
+            -0.01,
+            -0.441
+          ],
+          "ejectionPort": [
+            0.0,
+            0.068,
+            -0.252
+          ],
+          "magazine": [
+            0.0,
+            0.073,
+            -0.252
+          ],
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.152,
+              -0.021
+            ],
+            "front": [
+              0.0,
+              0.152,
+              -0.504
+            ]
+          }
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      },
+      "revision": 3,
+      "previous": "weapon-med-ball-v2.glb"
+    },
+    "weaponPercussion": {
+      "url": "/assets/models/weapon-percussion.glb",
+      "kind": "weapon",
+      "weaponId": "percussion",
+      "triangles": 18524,
+      "fileBytes": 736108,
+      "lengthMeters": 0.3,
+      "bbox": {
+        "min": [
+          -0.045,
+          -0.117,
+          -0.226
+        ],
+        "max": [
+          0.045,
+          0.181,
+          0.074
+        ]
+      },
+      "verdict": "ship",
+      "verdictNote": "Clean massage-gun SMG: ball-head muzzle shroud, red LED ring at the rear facing the player, battery magazine, top rail. One model, meant to be instanced twice.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/percussion.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            -0.002,
+            0.108,
+            -0.226
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": null,
+          "ejectionPort": [
+            0.0,
+            0.104,
+            -0.084
+          ],
+          "magazine": [
+            0.0,
+            -0.08,
+            -0.004
+          ],
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.168,
+              0.004
+            ],
+            "front": [
+              0.0,
+              0.168,
+              -0.14
+            ]
+          }
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      }
+    },
+    "weaponStopwatch": {
+      "url": "/assets/models/weapon-stopwatch.glb",
+      "kind": "weapon",
+      "weaponId": "stopwatch",
+      "triangles": 16318,
+      "fileBytes": 620608,
+      "lengthMeters": 0.24,
+      "bbox": {
+        "min": [
+          -0.035,
+          -0.093,
+          -0.184
+        ],
+        "max": [
+          0.035,
+          0.093,
+          0.056
+        ]
+      },
+      "verdict": "ship",
+      "verdictNote": "Round 6 redesign: compact 0.24 m pistol; chrome stopwatch dial set flush in the top of the slide, face up, crown button and lanyard ring at the rear (the ring/crown stand a few mm proud). Slide is fairly wide (7 cm) and glossy black.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/stopwatch.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            0.003,
+            0.07,
+            -0.184
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": null,
+          "ejectionPort": [
+            0.0,
+            0.071,
+            -0.094
+          ],
+          "magazine": [
+            0.0,
+            -0.076,
+            0.005
+          ],
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.091,
+              0.023
+            ],
+            "front": [
+              0.0,
+              0.091,
+              -0.176
+            ]
+          },
+          "opticCenter": [
+            0.0,
+            0.091,
+            -0.026
+          ]
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      },
+      "revision": 3,
+      "previous": "weapon-stopwatch-v2.glb"
+    },
+    "weaponGripper": {
+      "url": "/assets/models/weapon-gripper.glb",
+      "kind": "weapon",
+      "weaponId": "gripper",
+      "triangles": 17724,
+      "fileBytes": 755788,
+      "lengthMeters": 0.22,
+      "bbox": {
+        "min": [
+          -0.034,
+          -0.082,
+          -0.195
+        ],
+        "max": [
+          0.034,
+          0.144,
+          0.025
+        ]
+      },
+      "verdict": "usable",
+      "verdictNote": "Red knurled handles look right, but the torsion spring came out glossy black instead of chrome and dominates the first-person view; slide is small.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/gripper.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            0,
+            0.098,
+            -0.195
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": [
+            0.0,
+            -0.006,
+            -0.128
+          ],
+          "ejectionPort": [
+            0.0,
+            0.11,
+            -0.134
+          ],
+          "magazine": null,
+          "sightLine": {
+            "rear": [
+              0.0,
+              0.128,
+              -0.073
+            ],
+            "front": [
+              0.0,
+              0.128,
+              -0.183
+            ]
+          }
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      }
+    },
+    "weaponSpeedRope": {
+      "url": "/assets/models/weapon-speed-rope.glb",
+      "kind": "weapon",
+      "weaponId": "speedRope",
+      "triangles": 3842,
+      "fileBytes": 318160,
+      "lengthMeters": 0.224,
+      "bbox": {
+        "min": [
+          -0.019,
+          -0.017,
+          -0.138
+        ],
+        "max": [
+          0.019,
+          0.017,
+          0.086
+        ]
+      },
+      "verdict": "usable",
+      "verdictNote": "Knurled handle with red end caps and swivel bearing is good; cut from a two-handle mesh, so the swivel tip has a small open edge where the rope was removed (back-face culling hides it from most angles). ~0.22 m incl. swivel.",
+      "source": "gpt_image_2_6 concept -> Tripo H3.1 image_to_3d (texture+PBR, detailed, 12 cr) -> gltf-transform (1024 WebP) + normalise",
+      "concept": "/assets/ui/weapons/speedRope.webp",
+      "meta": {
+        "forwardAxis": "-Z",
+        "upAxis": "+Y",
+        "scale": 1,
+        "origin": "main grip (firing-hand palm)",
+        "anchors": {
+          "muzzle": [
+            -0.012,
+            0.008,
+            -0.138
+          ],
+          "grip": [
+            0,
+            0,
+            0
+          ],
+          "supportGrip": null,
+          "ejectionPort": null,
+          "magazine": null,
+          "sightLine": null,
+          "ropeAttach": [
+            -0.012,
+            0.008,
+            -0.138
+          ]
+        },
+        "anchorAccuracy": "read off orthographic side renders on a 5 cm grid; about +-1 cm. sightLine rear/front share x and y so the line is parallel to the barrel; front may be a virtual point above the muzzle",
+        "separableParts": false,
+        "materials": 1
+      }
+    },
+    "charPowerlifter": {
+      "url": "/assets/models/char-powerlifter.glb",
+      "kind": "character",
+      "skinned": true,
+      "originAtFeet": true,
+      "forwardAxis": "+Z",
+      "upAxis": "+Y",
+      "skeleton": "meshyHumanoid24",
+      "boneNamesSource": "Meshy auto-rig (image_to_3d enable_rigging); identical 24-joint list and order on all five characters",
+      "bones": [
+        "Hips",
+        "Spine02",
+        "Spine01",
+        "Spine",
+        "neck",
+        "Head",
+        "head_end",
+        "headfront",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ],
+      "rightHandBone": "RightHand",
+      "leftHandBone": "LeftHand",
+      "headBone": "Head",
+      "spineBone": "Spine02",
+      "rootBone": "Hips",
+      "armatureScale": 0.01,
+      "sharedAnimations": [
+        "animIdle",
+        "animWalk",
+        "animRun",
+        "animAim",
+        "animDeath",
+        "animStrafeLeft",
+        "animStrafeRight",
+        "animJump"
+      ],
+      "source": "gpt_image_2_6 A-pose concept -> Meshy image_to_3d texture+PBR+rig+1 clip, 30k target -> gltf-transform optimize (1024 WebP)",
+      "heightMeters": 1.85,
+      "triangles": 31237,
+      "hipsRestY": 1.047,
+      "embeddedClip": "Armature|RunFast|baselayer",
+      "silhouette": "huge"
+    },
+    "charCalisthenics": {
+      "url": "/assets/models/char-calisthenics.glb",
+      "kind": "character",
+      "skinned": true,
+      "originAtFeet": true,
+      "forwardAxis": "+Z",
+      "upAxis": "+Y",
+      "skeleton": "meshyHumanoid24",
+      "boneNamesSource": "Meshy auto-rig (image_to_3d enable_rigging); identical 24-joint list and order on all five characters",
+      "bones": [
+        "Hips",
+        "Spine02",
+        "Spine01",
+        "Spine",
+        "neck",
+        "Head",
+        "head_end",
+        "headfront",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ],
+      "rightHandBone": "RightHand",
+      "leftHandBone": "LeftHand",
+      "headBone": "Head",
+      "spineBone": "Spine02",
+      "rootBone": "Hips",
+      "armatureScale": 0.01,
+      "sharedAnimations": [
+        "animIdle",
+        "animWalk",
+        "animRun",
+        "animAim",
+        "animDeath",
+        "animStrafeLeft",
+        "animStrafeRight",
+        "animJump"
+      ],
+      "source": "gpt_image_2_6 A-pose concept -> Meshy image_to_3d texture+PBR+rig+1 clip, 30k target -> gltf-transform optimize (1024 WebP)",
+      "heightMeters": 1.7,
+      "triangles": 31161,
+      "hipsRestY": 0.988,
+      "embeddedClip": "Armature|Idle|baselayer",
+      "silhouette": "lean female, long sleeves, braids"
+    },
+    "charSprinter": {
+      "url": "/assets/models/char-sprinter.glb",
+      "kind": "character",
+      "skinned": true,
+      "originAtFeet": true,
+      "forwardAxis": "+Z",
+      "upAxis": "+Y",
+      "skeleton": "meshyHumanoid24",
+      "boneNamesSource": "Meshy auto-rig (image_to_3d enable_rigging); identical 24-joint list and order on all five characters",
+      "bones": [
+        "Hips",
+        "Spine02",
+        "Spine01",
+        "Spine",
+        "neck",
+        "Head",
+        "head_end",
+        "headfront",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ],
+      "rightHandBone": "RightHand",
+      "leftHandBone": "LeftHand",
+      "headBone": "Head",
+      "spineBone": "Spine02",
+      "rootBone": "Hips",
+      "armatureScale": 0.01,
+      "sharedAnimations": [
+        "animIdle",
+        "animWalk",
+        "animRun",
+        "animAim",
+        "animDeath",
+        "animStrafeLeft",
+        "animStrafeRight",
+        "animJump"
+      ],
+      "source": "gpt_image_2_6 A-pose concept -> Meshy image_to_3d texture+PBR+rig+1 clip, 30k target -> gltf-transform optimize (1024 WebP)",
+      "heightMeters": 1.8,
+      "triangles": 31298,
+      "hipsRestY": 1.023,
+      "embeddedClip": "Armature|Casual_Walk_inplace|baselayer",
+      "silhouette": "very slim, red singlet, headband"
+    },
+    "charSpotter": {
+      "url": "/assets/models/char-spotter.glb",
+      "kind": "character",
+      "skinned": true,
+      "originAtFeet": true,
+      "forwardAxis": "+Z",
+      "upAxis": "+Y",
+      "skeleton": "meshyHumanoid24",
+      "boneNamesSource": "Meshy auto-rig (image_to_3d enable_rigging); identical 24-joint list and order on all five characters",
+      "bones": [
+        "Hips",
+        "Spine02",
+        "Spine01",
+        "Spine",
+        "neck",
+        "Head",
+        "head_end",
+        "headfront",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ],
+      "rightHandBone": "RightHand",
+      "leftHandBone": "LeftHand",
+      "headBone": "Head",
+      "spineBone": "Spine02",
+      "rootBone": "Hips",
+      "armatureScale": 0.01,
+      "sharedAnimations": [
+        "animIdle",
+        "animWalk",
+        "animRun",
+        "animAim",
+        "animDeath",
+        "animStrafeLeft",
+        "animStrafeRight",
+        "animJump"
+      ],
+      "source": "gpt_image_2_6 A-pose concept -> Meshy image_to_3d texture+PBR+rig+1 clip, 30k target -> gltf-transform optimize (1024 WebP)",
+      "heightMeters": 1.72,
+      "triangles": 31257,
+      "hipsRestY": 0.97,
+      "embeddedClip": "Armature|Walk_Forward_While_Shooting_inplace|baselayer",
+      "silhouette": "hoodie + joggers, silver hair, towel"
+    },
+    "charHybrid": {
+      "url": "/assets/models/char-hybrid.glb",
+      "kind": "character",
+      "skinned": true,
+      "originAtFeet": true,
+      "forwardAxis": "+Z",
+      "upAxis": "+Y",
+      "skeleton": "meshyHumanoid24",
+      "boneNamesSource": "Meshy auto-rig (image_to_3d enable_rigging); identical 24-joint list and order on all five characters",
+      "bones": [
+        "Hips",
+        "Spine02",
+        "Spine01",
+        "Spine",
+        "neck",
+        "Head",
+        "head_end",
+        "headfront",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ],
+      "rightHandBone": "RightHand",
+      "leftHandBone": "LeftHand",
+      "headBone": "Head",
+      "spineBone": "Spine02",
+      "rootBone": "Hips",
+      "armatureScale": 0.01,
+      "sharedAnimations": [
+        "animIdle",
+        "animWalk",
+        "animRun",
+        "animAim",
+        "animDeath",
+        "animStrafeLeft",
+        "animStrafeRight",
+        "animJump"
+      ],
+      "source": "gpt_image_2_6 A-pose concept -> Meshy image_to_3d texture+PBR+rig+1 clip, 30k target -> gltf-transform optimize (1024 WebP)",
+      "heightMeters": 1.83,
+      "triangles": 31306,
+      "hipsRestY": 1.028,
+      "embeddedClip": "Armature|Shot_and_Fall_Backward|baselayer",
+      "silhouette": "muscular, grey tee, cargo pants, kettlebell on hip"
+    }
+  },
+  "sky": {
+    "skylineGoldenHour": {
+      "url": "/assets/sky/skyline-golden-hour-pano.webp",
+      "kind": "panorama"
+    },
+    "neonNightCity": {
+      "url": "/assets/sky/neon-night-city.webp",
+      "kind": "backdrop"
+    }
+  },
+  "decals": {
+    "posterIronclad": {
+      "url": "/assets/decals/poster-ironclad-no-days-off.webp",
+      "transparent": false
+    },
+    "posterTitan": {
+      "url": "/assets/decals/poster-titan-lift-heavy.webp",
+      "transparent": false
+    },
+    "posterPrFactory": {
+      "url": "/assets/decals/poster-pr-factory-earn-every-rep.webp",
+      "transparent": false
+    },
+    "posterVolt": {
+      "url": "/assets/decals/poster-volt-feel-the-buzz.webp",
+      "transparent": false
+    },
+    "posterChalkSteel": {
+      "url": "/assets/decals/poster-chalk-steel-pain-is-temporary.webp",
+      "transparent": false
+    },
+    "posterRideThePulse": {
+      "url": "/assets/decals/poster-neon-ride-the-pulse.webp",
+      "transparent": false
+    },
+    "emblemIronTemple": {
+      "url": "/assets/decals/emblem-iron-temple.webp",
+      "transparent": true
+    },
+    "signNeonPulse": {
+      "url": "/assets/decals/sign-neon-pulse.webp",
+      "transparent": true
+    },
+    "emblemSkyline": {
+      "url": "/assets/decals/emblem-skyline-athletic-club.webp",
+      "transparent": true
+    },
+    "floorCaptureZone": {
+      "url": "/assets/decals/floor-capture-zone.webp",
+      "transparent": true
+    },
+    "floorArrow": {
+      "url": "/assets/decals/floor-arrow-stencil.webp",
+      "transparent": true
+    }
+  },
+  "animations": {
+    "animIdle": {
+      "url": "/assets/models/anim-idle.glb",
+      "clip": "idle",
+      "duration": 4.033,
+      "loop": true,
+      "meshyActionId": 0,
+      "meshyName": "Idle",
+      "sourceCharacter": "charCalisthenics",
+      "sourceHipsRestY": 0.988,
+      "rootMotion": false,
+      "tracks": "rotation for all 22 animated bones + Hips.position only",
+      "retarget": "bind by bone name; scale Hips.position values by targetHipsRestY/sourceHipsRestY"
+    },
+    "animWalk": {
+      "url": "/assets/models/anim-walk.glb",
+      "clip": "walk",
+      "duration": 4.2,
+      "loop": true,
+      "meshyActionId": 613,
+      "meshyName": "Casual_Walk_inplace",
+      "sourceCharacter": "charSprinter",
+      "sourceHipsRestY": 1.023,
+      "rootMotion": false,
+      "tracks": "rotation for all 22 animated bones + Hips.position only",
+      "retarget": "bind by bone name; scale Hips.position values by targetHipsRestY/sourceHipsRestY"
+    },
+    "animRun": {
+      "url": "/assets/models/anim-run.glb",
+      "clip": "run",
+      "duration": 0.5,
+      "loop": true,
+      "meshyActionId": 16,
+      "meshyName": "RunFast",
+      "sourceCharacter": "charPowerlifter",
+      "sourceHipsRestY": 1.047,
+      "rootMotion": false,
+      "tracks": "rotation for all 22 animated bones + Hips.position only",
+      "retarget": "bind by bone name; scale Hips.position values by targetHipsRestY/sourceHipsRestY"
+    },
+    "animAim": {
+      "url": "/assets/models/anim-aim.glb",
+      "clip": "aim",
+      "duration": 3.3,
+      "loop": true,
+      "meshyActionId": 690,
+      "meshyName": "Walk_Forward_While_Shooting_inplace",
+      "sourceCharacter": "charSpotter",
+      "sourceHipsRestY": 0.97,
+      "rootMotion": false,
+      "note": "two-handed rifle hold while walking; use upper body only (mask legs) for a standing aim or blend with idle/walk",
+      "tracks": "rotation for all 22 animated bones + Hips.position only",
+      "retarget": "bind by bone name; scale Hips.position values by targetHipsRestY/sourceHipsRestY"
+    },
+    "animDeath": {
+      "url": "/assets/models/anim-death.glb",
+      "clip": "death",
+      "duration": 3.533,
+      "loop": false,
+      "meshyActionId": 183,
+      "meshyName": "Shot_and_Fall_Backward",
+      "sourceCharacter": "charHybrid",
+      "sourceHipsRestY": 1.028,
+      "rootMotion": true,
+      "note": "Hips translates backward/down; play once and clampWhenFinished",
+      "tracks": "rotation for all 22 animated bones + Hips.position only",
+      "retarget": "bind by bone name; scale Hips.position values by targetHipsRestY/sourceHipsRestY"
+    },
+    "animStrafeLeft": {
+      "url": "/assets/models/anim-strafe-left.glb",
+      "clip": "strafeLeft",
+      "duration": 1.233,
+      "loop": true,
+      "meshyActionId": 694,
+      "meshyName": "Walk_Left_with_Gun_inplace",
+      "sourceCharacter": "charHybrid (re-rigged via 3d_rigging)",
+      "sourceHipsRestY": 1.052,
+      "rootMotion": false,
+      "note": "low, knees-bent sidestep with a two-handed gun hold (Meshy files it under CrouchWalking); head about 0.35 m lower than standing",
+      "tracks": "rotation for all 22 animated bones + Hips.position only",
+      "retarget": "bind by bone name; scale Hips.position values by targetHipsRestY/sourceHipsRestY"
+    },
+    "animStrafeRight": {
+      "url": "/assets/models/anim-strafe-right.glb",
+      "clip": "strafeRight",
+      "duration": 1.233,
+      "loop": true,
+      "meshyActionId": null,
+      "meshyName": "mirror of Walk_Left_with_Gun_inplace",
+      "sourceCharacter": "charHybrid (re-rigged via 3d_rigging)",
+      "sourceHipsRestY": 1.052,
+      "rootMotion": false,
+      "mirroredFrom": "animStrafeLeft",
+      "note": "the library has no right-side gun strafe; this is animStrafeLeft mirrored offline (Left/Right tracks swapped, quaternion (x,-y,-z,w), Hips.x negated). Hand roles swap in the mirrored pose (left hand forward on the grip), so a right-hand-attached weapon sits slightly off; acceptable at bot distance",
+      "tracks": "rotation for all 22 animated bones + Hips.position only",
+      "retarget": "bind by bone name; scale Hips.position values by targetHipsRestY/sourceHipsRestY"
+    },
+    "animJump": {
+      "url": "/assets/models/anim-jump.glb",
+      "clip": "jump",
+      "duration": 1.9,
+      "loop": false,
+      "meshyActionId": 466,
+      "meshyName": "Regular_Jump",
+      "sourceCharacter": "charHybrid (re-rigged via 3d_rigging)",
+      "sourceHipsRestY": 1.056,
+      "rootMotion": false,
+      "horizontalRootMotion": "locked (in place)",
+      "hipsVerticalRangeMeters": [
+        -0.34,
+        0.5
+      ],
+      "note": "full jump: crouch (0-0.5 s), take-off and rise to about +0.5 m (peak about 0.95 s), land and recover (about 1.9 s). For physics-driven jumps, either subtract the Hips.position Y rise or play only the airborne window (about 0.55-1.35 s) slowed or held",
+      "tracks": "rotation for all 22 animated bones + Hips.position only",
+      "retarget": "bind by bone name; scale Hips.position values by targetHipsRestY/sourceHipsRestY"
+    }
+  }
+}
